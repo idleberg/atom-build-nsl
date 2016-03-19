@@ -1,7 +1,7 @@
 {
   "name": "build-nsl",
   "version": "0.0.0",
-  "description": "AtomBuild provider for nsL Assembler, translates nsL code into NSIS scripts",
+  "description": "Atom Build provider for nsL Assembler, translates nsL code into NSIS scripts",
   "repository": "https://github.com/idleberg/atom-build-nsl",
   "license": "MIT",
   "keywords": [
