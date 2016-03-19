@@ -27,7 +27,7 @@ Before you can build, you need to specify the path to your `nsL.jar` in your Ato
 ```cson
 "build-nsl":
     pathToJar: "/path/to/nsL.jar"
- ``
+```
 
 ## Usage
 
