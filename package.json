@@ -14,13 +14,13 @@
   ],
   "main": "lib/nsl.js",
   "engines": {
-    "atom": ">=1.5.0 <2.0.0"
+    "atom": ">=1.0.0 <2.0.0"
   },
   "providedServices": {
     "builder": {
       "description": "Compiles nsL scripts",
       "versions": {
-        "1.0.0": "provideBuilder"
+        "2.0.0": "provideBuilder"
       }
     }
   },
@@ -28,6 +28,9 @@
     "glob": "^7.0.0"
   },
   "devDependencies": {
+    "babel-eslint": "^5.0.0",
+    "eslint": "^2.4.0",
+    "eslint-config-atom-build": "^2.0.0",
     "gulp": "^3.9.1",
     "gulp-coffeelint": "^0.6.0",
     "gulp-debug": "^2.1.2",
