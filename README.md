@@ -2,7 +2,7 @@
 [![apm](https://img.shields.io/apm/v/build-nsl.svg?style=flat-square)](https://atom.io/packages/build-nsl)
 [![apm](https://img.shields.io/apm/dm/build-nsl.svg?style=flat-square)](https://atom.io/packages/build-nsl)
 [![Travis](https://img.shields.io/travis/idleberg/atom-build-nsl.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-build-nsl)
-[![David](https://img.shields.io/david/dev/idleberg/atom-build-nsl.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-nsl#info=devDependencies)
+[![David](https://img.shields.io/david/dev/idleberg/atom-build-nsl.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-nsl#info=dependencies)
 [![Gitter](https://img.shields.io/badge/chat-Gitter-ff69b4.svg?style=flat-square)](https://gitter.im/NSIS-Dev/Atom)
 
 # build-nsl
