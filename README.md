@@ -31,17 +31,27 @@ Before you can build, you need to specify the path to your `nsL.jar` in your Ato
 
 ## Usage
 
-### Build
+Before you can build, select an active target with your preferred build option.
+
+Available targets:
+
+* `nsL Assembler` – translate nsL code
+
+### Shortcuts
 
 Here's a reminder of the default shortcuts you can use with this package:
 
-**Build script**
+**Choose target**
 
-<kbd>Cmd</kbd>+<kbd>Alt</kbd>+<kbd>B</kbd> or <kbd>F9</kbd>
+<kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd> or <kbd>F7</kbd>
 
 **Toggle build panel**
 
-<kbd>Cmd</kbd>+<kbd>Alt</kbd>+<kbd>V</kbd> or <kbd>F8</kbd>
+<kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>V</kbd> or <kbd>F8</kbd>
+
+**Build script**
+
+<kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>B</kbd> or <kbd>F9</kbd>
 
 ## License
 
