@@ -35,7 +35,17 @@ Before you can build, select an active target with your preferred build option.
 
 Available targets:
 
-* `nsL Assembler` – translate nsL code
+* `nsL Assembler (Windows)` – runs batch script, detecting installed `nsL.jar`, then compiling
+* `nsL Assembler` – compiles using manually specified path to `nsL.jar`
+
+#### Path to JAR
+
+When you can't use the Windows batch file, you need to specify a custom path for `nsL.jar` in your `config.cson`:
+
+```cson
+ "build-nsl":
+    pathToJar: "path/to/BridleNSIS.jar"
+ ```
 
 ### Shortcuts
 
