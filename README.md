@@ -5,7 +5,7 @@
 [![apm](https://img.shields.io/apm/dm/build-nsl.svg?style=flat-square)](https://atom.io/packages/build-nsl)
 [![Travis](https://img.shields.io/travis/idleberg/atom-build-nsl.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-build-nsl)
 [![David](https://img.shields.io/david/idleberg/atom-build-nsl.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-nsl#info=dependencies)
-[![David](https://img.shields.io/david/dev/idleberg/atom-build-nsl.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-nsl#info=dependencies)
+[![David](https://img.shields.io/david/dev/idleberg/atom-build-nsl.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-nsl#info=devDependencies)
 [![Gitter](https://img.shields.io/badge/chat-Gitter-ff69b4.svg?style=flat-square)](https://gitter.im/NSIS-Dev/Atom)
 
 [Atom Build](https://atombuild.github.io/) for nsL Assembler, translates nsL code into NSIS scripts
