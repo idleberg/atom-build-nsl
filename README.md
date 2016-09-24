@@ -36,6 +36,13 @@ Clone repository as `build-nsl`:
 $ git clone https://github.com/idleberg/atom-build-nsl build-nsl
 ```
 
+Install Node dependencies:
+
+```bash
+cd build-nsl
+npm install
+```
+
 ## Configuration
 
 Before you can build, you need to specify the path to your `nsL.jar` in your Atom [configuration](http://flight-manual.atom.io/using-atom/sections/basic-customization/#_global_configuration_settings).
