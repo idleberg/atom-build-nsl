@@ -39,8 +39,8 @@ $ git clone https://github.com/idleberg/atom-build-nsl build-nsl
 Install Node dependencies:
 
 ```bash
-cd build-nsl
-npm install
+$ cd build-nsl
+$ npm install
 ```
 
 ## Configuration
