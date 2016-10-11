@@ -40,7 +40,7 @@ Install Node dependencies:
 
 ```bash
 $ cd build-nsl
-$ npm install
+$ yarn || npm install
 ```
 
 ## Configuration
