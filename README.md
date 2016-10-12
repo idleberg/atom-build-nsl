@@ -36,10 +36,9 @@ Clone repository as `build-nsl`:
 $ git clone https://github.com/idleberg/atom-build-nsl build-nsl
 ```
 
-Install Node dependencies:
+Inside the cloned directory, install Node dependencies:
 
 ```bash
-$ cd build-nsl
 $ yarn || npm install
 ```
 
