@@ -8,7 +8,7 @@
 [![David](https://img.shields.io/david/dev/idleberg/atom-build-nsl.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-nsl?type=dev)
 [![Gitter](https://img.shields.io/badge/chat-Gitter-ed1965.svg?style=flat-square)](https://gitter.im/NSIS-Dev/Atom)
 
-[Atom Build](https://atombuild.github.io/) for nsL Assembler, translates nsL code into NSIS scripts
+[Atom Build](https://atombuild.github.io/) for nsL Assembler, translates nsL code into NSIS scripts. Supports the [linter](https://atom.io/packages/linter) package for error highlighting.
 
 ## Installation
 
