@@ -44,7 +44,9 @@ $ yarn || npm install
 
 ## Configuration
 
-Before you can build, you need to specify the path to your `nsL.jar` in your Atom [configuration](http://flight-manual.atom.io/using-atom/sections/basic-customization/#_global_configuration_settings).
+Before you can build, you need to specify the path to your `nsL.jar` in the package settings.
+
+**Example**:
 
 ```cson
 "build-nsl":
@@ -57,7 +59,6 @@ Before you can build, select an active target with your preferred build option.
 
 Available targets:
 
-* `nsL Assembler (Windows)` – runs batch script, detecting installed `nsL.jar`, then compiling
 * `nsL Assembler` – compiles using manually specified path to `nsL.jar`
 
 #### Path to JAR
