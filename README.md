@@ -44,7 +44,7 @@ $ yarn || npm install
 
 ## Configuration
 
-Before you can build, you need to specify the path to your `nsL.jar` in the package settings.
+Make sure to specify the path to your `nsL.jar` in the package settings.
 
 **Example**:
 
