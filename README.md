@@ -59,16 +59,7 @@ Before you can build, select an active target with your preferred build option.
 
 Available targets:
 
-* `nsL Assembler` – compiles using manually specified path to `nsL.jar`
-
-#### Path to JAR
-
-When you can't use the Windows batch file, you need to specify a custom path for `nsL.jar` in your Atom [configuration](http://flight-manual.atom.io/using-atom/sections/basic-customization/#_global_configuration_settings):
-
-```cson
- "build-nsl":
-    pathToJar: "path/to/BridleNSIS.jar"
- ```
+* `nsL Assembler` – compiles script
 
 ### Shortcuts
 
