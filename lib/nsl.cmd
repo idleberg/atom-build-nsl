@@ -29,7 +29,7 @@ set args=
 if not "%~2"=="" goto loop
 
 if defined nsis_compiler (
-    java.exe -jar "%nsis_compiler%\NSL\nsL.jar" %args%
+    java.exe -jar "%nsis_compiler%\NSL\nsL.jar" /nopause /nomake %args%
 ) else (
-    echo "Error, build system cannot find NSIS! Please reinstall it, add makensis.exe to your PATH, or defined the NSIS_HOME environment variable."
+    echo "Error: Make sure Java is in your PATH environmental variable and nsL Assembler is installed"
 )
