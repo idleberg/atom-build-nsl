@@ -5,7 +5,7 @@
   "repository": "https://github.com/idleberg/atom-build-nsl",
   "license": "MIT OR GPL-2.0",
   "keywords": [
-    "build",
+    "build-provider",
     "compile",
     "nsis",
     "nsl assembler",
@@ -25,7 +25,7 @@
     }
   },
   "package-deps": [
-    "build"
+    "build-provider"
   ],
   "dependencies": {
     "atom-package-deps": "^4.3.1"
