@@ -50,7 +50,7 @@ Make sure to specify the path to your `nsL.jar` in the package settings.
 
 ```cson
 "build-nsl":
-    pathToJar: "/path/to/nsL.jar"
+    pathToJar: "%PROGRAMFILES(X86)%\\NSIS\\NSL\\nsL.jar"
 ```
 
 ## Usage
