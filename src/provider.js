@@ -29,6 +29,7 @@ export function provideBuilder() {
 
       // First, check for Java
       const whichCmd = spawnSync(which(), ['java']);
+
       if (!whichCmd.stdout || !whichCmd.stdout.toString()) {
         return false;
       }
