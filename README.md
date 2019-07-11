@@ -1,12 +1,11 @@
 # build-nsl
 
-[![apm](https://img.shields.io/apm/l/build-nsl.svg?style=flat-square)](https://atom.io/packages/build-nsl)
-[![apm](https://img.shields.io/apm/v/build-nsl.svg?style=flat-square)](https://atom.io/packages/build-nsl)
-[![apm](https://img.shields.io/apm/dm/build-nsl.svg?style=flat-square)](https://atom.io/packages/build-nsl)
-[![Travis](https://img.shields.io/travis/idleberg/atom-build-nsl.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-build-nsl)
-[![David](https://img.shields.io/david/idleberg/atom-build-nsl.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-nsl)
-[![David](https://img.shields.io/david/dev/idleberg/atom-build-nsl.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-nsl?type=dev)
-[![Gitter](https://img.shields.io/badge/chat-Gitter-ed1965.svg?style=flat-square)](https://gitter.im/NSIS-Dev/Atom)
+[![apm](https://flat.badgen.net/apm/license/build-nsl)](https://atom.io/packages/build-nsl)
+[![apm](https://flat.badgen.net/apm/v/build-nsl)](https://atom.io/packages/build-nsl)
+[![apm](https://flat.badgen.net/apm/dl/build-nsl)](https://atom.io/packages/build-nsl)
+[![CircleCI](https://flat.badgen.net/circleci/github/idleberg/atom-build-nsl)](https://circleci.com/gh/idleberg/atom-build-nsl)
+[![David](https://flat.badgen.net/david/dep/idleberg/atom-build-nsl)](https://david-dm.org/idleberg/atom-build-nsl)
+[![Gitter](https://flat.badgen.net/badge/chat/on%20gitter/ff69b4)](https://gitter.im/NSIS-Dev/Atom)
 
 [Atom Build](https://atombuild.github.io/) for nsL Assembler, transpiles nsL code into NSIS scripts. Supports the [linter](https://atom.io/packages/linter) package for error highlighting.
 
