@@ -72,7 +72,7 @@ export function provideBuilder() {
       const pathToJar = getConfig('pathToJar');
 
       const defaultArguments = ['-jar', pathToJar];
-      const customArguments = getConfig('customArguments').trim().split(' ');
+      const customArguments = getConfig('customArguments');
       const args = defaultArguments.concat(customArguments);
       args.push('{FILE_ACTIVE}');
 
