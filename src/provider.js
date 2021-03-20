@@ -1,5 +1,3 @@
-'use babel';
-
 import meta from '../package.json';
 import { EventEmitter } from 'events';
 import { configSchema, getConfig } from './config';
@@ -13,9 +11,10 @@ export function provideBuilder() {
   return class nslProvider extends EventEmitter {
     constructor(cwd) {
       super();
+
       this.cwd = cwd;
-      atom.config.observe('build-nsl.pathToJar', () => this.emit('refresh'));
-      atom.config.observe('build-nsl.customArguments', () => this.emit('refresh'));
+      atom.config.observe(`${meta.name}.pathToJar`, () => this.emit('refresh'));
+      atom.config.observe(`${meta.name}.customArguments`, () => this.emit('refresh'));
     }
 
     getNiceName() {
@@ -98,6 +97,6 @@ export function provideBuilder() {
 // This package depends on build, make sure it's installed
 export async function activate() {
   if (getConfig('manageDependencies') === true) {
-    satisfyDependencies();
+    satisfyDependencies(meta.name);
   }
 }
