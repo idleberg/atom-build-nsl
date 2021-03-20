@@ -2,8 +2,9 @@ import meta from '../package.json';
 import { EventEmitter } from 'events';
 import { configSchema, getConfig } from './config';
 import { existsSync } from 'fs';
-import { satisfyDependencies, which } from './util';
+import { satisfyDependencies } from 'atom-satisfy-dependencies';
 import { spawnSync } from 'child_process';
+import { which } from './util';
 
 export { configSchema as config };
 
