@@ -1,10 +1,10 @@
-import meta from '../package.json';
-import { EventEmitter } from 'events';
 import { configSchema, getConfig } from './config';
+import { EventEmitter } from 'events';
 import { existsSync } from 'fs';
 import { satisfyDependencies } from 'atom-satisfy-dependencies';
-import { spawnSync } from 'child_process';
-import { which } from './util';
+import Logger from './log';
+import meta from '../package.json';
+import which from 'which';
 
 export { configSchema as config };
 
@@ -24,13 +24,12 @@ export function provideBuilder() {
 
     isEligible() {
       if (getConfig('alwaysEligible') === true) {
+        Logger.log('Always eligible');
         return true;
       }
 
       // First, check for Java
-      const whichCmd = spawnSync(which(), ['java']);
-
-      if (!whichCmd.stdout || !whichCmd.stdout.toString()) {
+      if (!which.sync('java', { nothrow: true })) {
         return false;
       }
 
