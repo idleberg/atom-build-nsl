@@ -4,8 +4,7 @@
 [![apm](https://flat.badgen.net/apm/v/build-nsl)](https://atom.io/packages/build-nsl)
 [![apm](https://flat.badgen.net/apm/dl/build-nsl)](https://atom.io/packages/build-nsl)
 [![CircleCI](https://flat.badgen.net/circleci/github/idleberg/atom-build-nsl)](https://circleci.com/gh/idleberg/atom-build-nsl)
-[![David](https://flat.badgen.net/david/dep/idleberg/atom-build-nsl)](https://david-dm.org/idleberg/atom-build-nsl)
-[![Gitter](https://flat.badgen.net/badge/chat/on%20gitter/ff69b4)](https://gitter.im/NSIS-Dev/Atom)
+[![David](https://flat.badgen.net/david/dev/idleberg/atom-build-nsl)](https://david-dm.org/idleberg/atom-build-nsl?type=dev)
 
 [Atom Build](https://atombuild.github.io/) for nsL Assembler, transpiles nsL code into NSIS scripts. Supports the [linter](https://atom.io/packages/linter) package for error highlighting.
 
