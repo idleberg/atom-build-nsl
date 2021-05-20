@@ -1,6 +1,6 @@
 {
   "name": "build-nsl",
-  "version": "0.19.1",
+  "version": "0.20.0",
   "description": "Atom Build provider for nsL Assembler, transpiles nsL code into NSIS scripts",
   "repository": "https://github.com/idleberg/atom-build-nsl",
   "license": "MIT OR GPL-2.0",
